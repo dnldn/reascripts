@@ -1,6 +1,6 @@
 --Gets only selected notes and cc events from active midi take in midi editor HWND. Doesn't run if MIDI editor window isn't active.
     --Useful to experiment with adding pauses to runs. Requires user input to set probability.
-    --Demonstration: 
+    --Demonstration: https://raw.githubusercontent.com/dnldn/reascripts/main/MIDI/Randomly%20mute%20notes%20by%20user%20probability.gif
 
 
 --Declaring module names.
