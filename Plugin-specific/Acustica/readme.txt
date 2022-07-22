@@ -1,0 +1,12 @@
+A script I worked on for Reaper. Two instances of Pro-Q are linked via parameter modulation, with the one on the right also controlling a copy of Tim Petherick's Surge EQ library (high bell setting). The instance on the right is not passing any audio through; it is strictly being used for control. When bypass is clicked, the wet/dry parameter on the Nebula instance goes all the way down and the other Pro-Q instance goes all the way up. This is done instead of using bypass to avoid audio dropouts.
+
+I pushed the EQ changes to the extreme because they're honestly fairly subtle (maybe a little more subtle than I'd like!), but the unit being modelled by the Surge EQ library is a famously transparent piece of hardware.
+
+Demonstrated here:
+https://www.youtube.com/watch?v=JOPm5KsnUI4
+
+I further developed this system and tested it on two other Nebula libraries and one Acqua library. I did not develop it further for two reasons:
+
+1) Programatically extracting string values from Nebula while modulating the normallized value did not yield predictable results, and values in Nebula are mapped by hand. This meant (more often than not) that regression models failed to recreate the intended value curve of different parameters, and extremely long lookup tables had to be used. This made adding libraries very unwieldy, and something I could not get repeatable results with if I were to develop a utility that allowed the end user to try and map their own libraries.
+
+2) To my surprise, controlling analog-style hardware emulations from a non-skeuomorphic interface did not always function as well as interacting with the original interface. This flew a little against logic; part of what makes actual analog EQ's function well in the real world is the fact you can use both hands to control parameters against one another, and taking the emphasis off of visual feedback. I felt as though using Pro-Q to control these interfaces got me closer to the first part, but further away from the second part for a net loss. Mileage may of course vary here, but given the system would have been difficult to scale and relied on owning two fairly expensive audio plugins (although I could have changed Pro-Q to Reaper's stock EQ pretty easily), it didn't make a ton of sense to continue the idea. Fun experiment, though!
