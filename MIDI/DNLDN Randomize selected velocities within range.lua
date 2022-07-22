@@ -1,7 +1,7 @@
 --Randomize selected velocities of note within range.
     --Randomizes velocity of selected notes in reaper, reassigning velocity randomly based on mean average of the selected notes.
     --Useful to add slight variations on runs, although note that running command repeatedly will eventually quantize the entire range toward a single value.
-    --Demonstration: 
+    --Demonstration: https://raw.githubusercontent.com/dnldn/reascripts/main/MIDI/Randomize%20velocities%20within%20range.gif
 
 
 --Declaring module names.
