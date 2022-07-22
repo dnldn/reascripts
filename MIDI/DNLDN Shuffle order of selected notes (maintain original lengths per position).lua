@@ -1,6 +1,6 @@
 --Shuffle order of selected MIDI notes (maintaining original lengths per position).
     --Randomizes order of selected notes in reaper, reassigning note values and velocity values but respecting the original length of the note at the given spot.
-    --Demonstration:
+    --Demonstration: https://raw.githubusercontent.com/dnldn/reascripts/main/MIDI/Shuffle%20order%20or%20selected%20notes%20and%20maintain%20original%20lengths.gif
 
 
 --Declaring module names.
