@@ -1,7 +1,7 @@
 --DNLDN Add harmonic series to last touched band in Fabfilter Pro-Q.
     --NOTE: This is for VST 3 version of Fabfilter Pro-q 3 - unclear if the same scaling is used on previous or future versions of Pro-Q.
     --Adds additional bands to last-touched Pro-Q plugin, if the last-touched parameter is in Pro-Q and related to a frequency band.
-    --Demonstration: 
+    --Demonstration: https://raw.githubusercontent.com/dnldn/reascripts/main/Plugin-specific/Add%20harmonic%20series%20to%20last%20touched%20band%20in%20Pro-Q%20demo.gif
 
 
 --Declaring module names.
